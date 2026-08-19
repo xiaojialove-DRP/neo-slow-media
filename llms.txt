@@ -1,0 +1,30 @@
+# Neo-Slow Media
+
+> A tool for durable content growth and product experience design — telling apart a feature or piece of content that solves a real problem from one that just makes the numbers look good.
+
+Neo-slow media is xiaojiahaina's editorial framework (senior media editor and design researcher, ongoing practice since 2021) for judging whether a product idea, feature, or piece of content genuinely serves the people it's for, or just performs usefulness while optimizing for engagement and attention metrics. It grew out of the 2010s "slow media" movement but is not digital-detox pessimism or nostalgia for pre-digital life — it responds to an era of AI-driven, abundant content, asking how to protect attention from within the digital rather than by escaping it.
+
+The core model is three lenses (Users vs. People, Entertain vs. Engage, Consumptive vs. Productive Friction) plus one question: if someone engages with an idea well, every week, for a year — how are they different at the end of that year?
+
+## Core
+
+- [README.md](README.md): the three-minute manifesto card — the core model as a diagram, plus a way to try it
+- [FIELD-GUIDE.en.md](FIELD-GUIDE.en.md): the full framework in English — three lenses, five design movements, domain focus areas and scope, the criteria checklist, five worked examples (including one where the lenses disagree and one showing the framework misapplied), the final editorial question
+- [FIELD-GUIDE.zh.md](FIELD-GUIDE.zh.md): the full framework in Chinese (完整框架的中文版本)
+- [EDITORIAL-COMPETENCIES.en.md](EDITORIAL-COMPETENCIES.en.md): seven editorial competencies, an appendix for reviewing writing and content specifically
+- [EDITORIAL-COMPETENCIES.zh.md](EDITORIAL-COMPETENCIES.zh.md): seven editorial competencies in Chinese (七项编辑能力)
+
+## Agent skills
+
+A suite of four copy-paste skills, built to the open agentskills.io Agent
+Skills specification, usable in Claude Code, Cursor, GitHub Copilot, Codex,
+Gemini CLI, and other compatible tools:
+
+- [agent-skill/neo-slow-media-lens/](agent-skill/neo-slow-media-lens/): the full evaluation — three lenses, criteria checklist, final question
+- [agent-skill/neo-slow-media-editorial/](agent-skill/neo-slow-media-editorial/): seven editorial competencies, for reviewing writing and copy
+- [agent-skill/neo-slow-media-productive-friction/](agent-skill/neo-slow-media-productive-friction/): one narrow question — is this friction point worth keeping
+- [agent-skill/neo-slow-media-final-question/](agent-skill/neo-slow-media-final-question/): just the one-year question, for a fast pre-ship check
+
+## License
+
+- [LICENSE](LICENSE): CC BY 4.0 — free to reference, share, and apply with attribution to xiaojiahaina
