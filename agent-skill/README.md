@@ -28,16 +28,21 @@ same framework.
 
 ## Install (Claude Code)
 
-Copy whichever skills you want — you don't need all four:
+Clone the repo, then copy whichever skills you want — you don't need all
+four:
 
 ```bash
+git clone https://github.com/xiaojialove-DRP/neo-slow-media.git
+cd neo-slow-media/agent-skill
 cp -r neo-slow-media-lens ~/.claude/skills/
 cp -r neo-slow-media-editorial ~/.claude/skills/
 cp -r neo-slow-media-productive-friction ~/.claude/skills/
 cp -r neo-slow-media-final-question ~/.claude/skills/
 ```
 
-Claude Code picks up skills from `~/.claude/skills/` automatically.
+Claude Code picks up skills from `~/.claude/skills/` automatically. (If
+you've already cloned the repo, skip the first line and just `cd` into your
+existing `neo-slow-media/agent-skill` folder.)
 
 ## Install (other Agent Skills-compatible tools)
 
